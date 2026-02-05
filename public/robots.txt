@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://huseyinatacan.github.io/sitemap.xml
