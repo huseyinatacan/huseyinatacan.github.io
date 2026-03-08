@@ -11,14 +11,18 @@ function Resume() {
     }
   ];
 
+  const courseLink = (name, url) => (
+    <a href={url} target="_blank" rel="noopener noreferrer" style={{ color: colors.background, fontStyle: "italic", textDecoration: "underline" }}>{name}</a>
+  );
+
   const experienceData = [
     {
       company: "Izmir University Of Economics",
       role: "Undergraduate Teaching Assistant",
-      years: "Oct 2025 — Jan 2026",
+      years: "Oct 2025 — Present",
       bullets: [
-        "Mentored 50+ undergraduate students across four sections during laboratory sessions for Concepts of Programming Languages and Introduction to Programming courses.",
-        "Guided students through complex debugging and hands-on coding exercises during weekly laboratory sessions."
+        <>Fall 2025: Helped more than 50 students in {courseLink("Concepts of Programming Languages", "https://se.ieu.edu.tr/en/syllabus/type/read/id/SE+323")} and {courseLink("Introduction to Programming", "https://se.ieu.edu.tr/en/syllabus/type/read/id/SE+115")} courses. Debugging the students' code, validating their answers, and explaining the concepts were my main responsibilities.</>,
+        <>Spring 2026: Assisted students during laboratory sessions of {courseLink("Systems Programming", "https://se.ieu.edu.tr/en/syllabus/type/read/id/SE+375")}, {courseLink("Software Architecture", "https://se.ieu.edu.tr/en/syllabus/type/read/id/SE+311")} and {courseLink("Introduction to Programming II", "https://se.ieu.edu.tr/en/syllabus/type/read/id/SE+116")}, guiding students in multithreading concepts in {courseLink("Systems Programming", "https://se.ieu.edu.tr/en/syllabus/type/read/id/SE+375")}, SOLID design principles and design patterns in {courseLink("Software Architecture", "https://se.ieu.edu.tr/en/syllabus/type/read/id/SE+311")} and object-oriented programming concepts in {courseLink("Introduction to Programming II", "https://se.ieu.edu.tr/en/syllabus/type/read/id/SE+116")}.</>
       ]
     },
     {
@@ -26,8 +30,8 @@ function Resume() {
       role: "Software Engineering Intern",
       years: "Aug 2025 — Sep 2025",
       bullets: [
-        "Integrated Azure DevOps APIs into a React and Node.js application to automate QA test data retrieval.",
-        "Built a template-based system to generate standardized QA reports programmatically."
+        "Automated the test documentation process using React, Node.js and Azure DevOps API.",
+        "The test documentation process was significantly accelerated through automation, allowing the test team to generate template based test documents directly using the test data in the Azure DevOps."
       ]
     }
   ];
@@ -81,7 +85,7 @@ function Resume() {
               top="18px"
               zIndex="1"
             />
-            
+
             {/* Content */}
             <VStack align="flex-start" gap="1">
               <Text fontWeight="bold" fontSize="md" color={colors.primaryText}>
@@ -146,7 +150,7 @@ function Resume() {
               top="18px"
               zIndex="1"
             />
-            
+
             {/* Content */}
             <VStack align="flex-start" gap="1" w="100%">
               <HStack justify="space-between" w="100%" flexWrap="wrap">

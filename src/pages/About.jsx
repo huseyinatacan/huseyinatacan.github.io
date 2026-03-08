@@ -6,17 +6,17 @@ function About() {
   return (
     <Box p="6">
       {/* About Title */}
-      
+
 
       <Text fontSize="md" color={colors.primaryText} mb="8" lineHeight="1.8" textAlign="left">
-Hello! I’m Hüseyin Atacan Akgün, a passionate software engineer with experience building full-stack applications using a variety of frameworks, and experience working with data science methodologies to analyze real-world problems.      </Text>
+        Hello! I'm Hüseyin Atacan Akgün, a High-Honor Senior Software Engineering student, experienced with building applications and testing and analyzing real data, including traffic incident data analysis using datasets provided by the Izmir Metropolitan Municipality. Passionate about learning new concepts and discussing them with others. Adaptable to new technologies and quick to apply them to create software solutions for real world problems.      </Text>
 
       {/* Skills Section */}
       <HStack align="start" gap="3" mb="6">
-        
+
         <Heading fontSize="xl" color={colors.primaryText} fontWeight="700">Skills</Heading>
       </HStack>
-      
+
       <VStack align="start" gap="4" maxW="600px">
         {/* Programming */}
         <HStack align="start" gap="6" w="100%">
@@ -24,7 +24,6 @@ Hello! I’m Hüseyin Atacan Akgün, a passionate software engineer with experie
           <HStack wrap="wrap" gap="2" flex="1">
             <Badge bg={colors.background} color={colors.mainCard} px="3" py="1" borderRadius="md">Java</Badge>
             <Badge bg={colors.background} color={colors.mainCard} px="3" py="1" borderRadius="md">Python</Badge>
-            <Badge bg={colors.background} color={colors.mainCard} px="3" py="1" borderRadius="md">C++</Badge>
             <Badge bg={colors.background} color={colors.mainCard} px="3" py="1" borderRadius="md">JavaScript</Badge>
             <Badge bg={colors.background} color={colors.mainCard} px="3" py="1" borderRadius="md">SQL</Badge>
             <Badge bg={colors.background} color={colors.mainCard} px="3" py="1" borderRadius="md">Dart</Badge>
@@ -43,15 +42,7 @@ Hello! I’m Hüseyin Atacan Akgün, a passionate software engineer with experie
           </HStack>
         </HStack>
 
-        {/* Cloud/DevOps */}
-        <HStack align="start" gap="6" w="100%">
-          <Text color={colors.background} fontSize="sm" fontWeight="600" minW="90px" pt="1">Cloud/DevOps</Text>
-          <HStack wrap="wrap" gap="2" flex="1">
-            <Badge bg={colors.background} color={colors.mainCard} px="3" py="1" borderRadius="md">Azure DevOps</Badge>
-            <Badge bg={colors.background} color={colors.mainCard} px="3" py="1" borderRadius="md">Firebase</Badge>
-            <Badge bg={colors.background} color={colors.mainCard} px="3" py="1" borderRadius="md">Git</Badge>
-          </HStack>
-        </HStack>
+
 
         {/* Concepts */}
         <HStack align="start" gap="6" w="100%">
