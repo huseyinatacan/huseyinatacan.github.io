@@ -6,8 +6,8 @@ function Resume() {
   const educationData = [
     {
       institution: "Izmir University of Economics",
-      degree: "Bachelor's Degree in Software Engineering",
-      years: "2022 — Present"
+      degree: "B.Sc. in Software Engineering (GPA: 3.94/4.0, Valedictorian)",
+      years: "2022 — 2026"
     }
   ];
 
@@ -17,9 +17,20 @@ function Resume() {
 
   const experienceData = [
     {
+      company: "S4E",
+      role: "Software Test Engineering Intern",
+      years: "Mar 2026 — Jul 2026",
+      bullets: [
+        "Examined the existing test suite to identify deprecated and missing test cases, removed outdated scripts, and developed automated test scripts using Playwright to expand coverage.",
+        "Designed and executed test cases to validate new software features, identifying failures and reporting findings to the development team to increase product quality.",
+        "Contributed to Model Context Protocol (MCP) development to support AI agents using the web application, tested the integration end-to-end, and fixed bugs to ensure a functional agent-ready setup.",
+        "Researched AI-based approaches to build a fully automated tool for test case generation and execution, aiming to reduce manual effort in future testing workflows."
+      ]
+    },
+    {
       company: "Izmir University Of Economics",
       role: "Undergraduate Teaching Assistant",
-      years: "Oct 2025 — Present",
+      years: "Oct 2025 — Jun 2026",
       bullets: [
         <>Fall 2025: Helped more than 50 students in {courseLink("Concepts of Programming Languages", "https://se.ieu.edu.tr/en/syllabus/type/read/id/SE+323")} and {courseLink("Introduction to Programming", "https://se.ieu.edu.tr/en/syllabus/type/read/id/SE+115")} courses. Debugging the students' code, validating their answers, and explaining the concepts were my main responsibilities.</>,
         <>Spring 2026: Assisted students during laboratory sessions of {courseLink("Systems Programming", "https://se.ieu.edu.tr/en/syllabus/type/read/id/SE+375")}, {courseLink("Software Architecture", "https://se.ieu.edu.tr/en/syllabus/type/read/id/SE+311")} and {courseLink("Introduction to Programming II", "https://se.ieu.edu.tr/en/syllabus/type/read/id/SE+116")}, guiding students in multithreading concepts in {courseLink("Systems Programming", "https://se.ieu.edu.tr/en/syllabus/type/read/id/SE+375")}, SOLID design principles and design patterns in {courseLink("Software Architecture", "https://se.ieu.edu.tr/en/syllabus/type/read/id/SE+311")} and object-oriented programming concepts in {courseLink("Introduction to Programming II", "https://se.ieu.edu.tr/en/syllabus/type/read/id/SE+116")}.</>

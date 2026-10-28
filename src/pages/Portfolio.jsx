@@ -5,10 +5,17 @@ import { colors } from "../theme/colors";
 function Portfolio() {
   const projects = [
     {
+      title: "ATLAS",
+      description: "Search and rescue teams relied on paper field forms that were prone to loss, delay, and coordination gaps across multiple simultaneous teams. Developed Atlas as a graduation project using Flutter for mobile, React and Next.js for the web dashboard, and Firebase as the backend, enabling field personnel to digitally complete GPS-tagged forms, visualize active worksites on an interactive map, track and update records, and synchronize data peer-to-peer via Bluetooth when internet access is unavailable.",
+      tags: ["Flutter", "React", "Firebase"],
+      github: null,
+      live: null
+    },
+    {
       title: "Traffic Accident Data Analysis",
       description: "Conducted data cleaning, feature engineering, and exploratory data analysis on a traffic accident dataset with 20k+ rows. Applied machine learning techniques including classification, clustering, association rule mining, and regression models to analyze accident severity patterns and to predict accident counts based on temporal features.",
       tags: ["Python", "Pandas", "Scikit-learn"],
-      github: null,
+      github: "https://github.com/HuseyinYontar/Analyzing_Traffic_Incidents_in_Izmir",
       live: null
     },
     {

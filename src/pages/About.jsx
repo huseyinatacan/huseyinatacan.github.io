@@ -7,13 +7,12 @@ function About() {
     <Box p="6">
       {/* About Title */}
 
-
       <Text fontSize="md" color={colors.primaryText} mb="8" lineHeight="1.8" textAlign="left">
-        Hello! I'm Hüseyin Atacan Akgün, a High-Honor Senior Software Engineering student, experienced with building applications and testing and analyzing real data, including traffic incident data analysis using datasets provided by the Izmir Metropolitan Municipality. Passionate about learning new concepts and discussing them with others. Adaptable to new technologies and quick to apply them to create software solutions for real world problems.      </Text>
+        Hello! I'm Hüseyin Atacan Akgün, a Software Engineering graduate and Department Valedictorian (3.94 GPA) with published machine learning research and hands-on experience building data pipelines, AI agent integrations (MCP), and full-stack systems. Experienced across Python, React, Node.js, and Flutter, and passionate about combining full-stack platforms with AI to solve real-world problems and help people.
+      </Text>
 
       {/* Skills Section */}
       <HStack align="start" gap="3" mb="6">
-
         <Heading fontSize="xl" color={colors.primaryText} fontWeight="700">Skills</Heading>
       </HStack>
 
@@ -39,10 +38,9 @@ function About() {
             <Badge bg={colors.background} color={colors.mainCard} px="3" py="1" borderRadius="md">React.js</Badge>
             <Badge bg={colors.background} color={colors.mainCard} px="3" py="1" borderRadius="md">Node.js</Badge>
             <Badge bg={colors.background} color={colors.mainCard} px="3" py="1" borderRadius="md">JUnit</Badge>
+            <Badge bg={colors.background} color={colors.mainCard} px="3" py="1" borderRadius="md">Playwright</Badge>
           </HStack>
         </HStack>
-
-
 
         {/* Concepts */}
         <HStack align="start" gap="6" w="100%">
